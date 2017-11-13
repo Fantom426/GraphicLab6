@@ -1,0 +1,9 @@
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\bin\Debug\Lab6.exe.config
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\bin\Debug\Lab6.exe
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\bin\Debug\Lab6.pdb
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\obj\Debug\Lab6.csprojResolveAssemblyReference.cache
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\obj\Debug\Lab6.Form1.resources
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.Cache
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\obj\Debug\Lab6.exe
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab6\Lab6\obj\Debug\Lab6.pdb

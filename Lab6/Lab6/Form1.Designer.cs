@@ -487,7 +487,8 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Тетраэдр",
             "Гексаэдр",
-            "Октаэдр"});
+            "Октаэдр",
+            "Икосаэдр"});
             this.comboBox1.Location = new System.Drawing.Point(25, 599);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);

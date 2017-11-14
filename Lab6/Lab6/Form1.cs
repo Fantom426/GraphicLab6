@@ -102,6 +102,83 @@ namespace Lab6
             facets.Add(f4);
         }
 
+        public void add_points_to_ikosaedr(int size)
+        {
+            point3D p1 = new point3D(-size * 1 / 2, size, 0);
+            point3D p2 = new point3D(size * 1 / 2, size, 0);
+            point3D p3 = new point3D(0, size * 1 / 2, size);
+            point3D p4 = new point3D(0, -size * 1 / 2, size);
+            point3D p5 = new point3D(-size * 1 / 2, -size, 0);
+            point3D p6 = new point3D(size * 1 / 2, -size, 0);
+            point3D p7 = new point3D(-size, 0, size * 1 / 2);
+            point3D p8 = new point3D(-size, 0, -size * 1 / 2);
+            point3D p9 = new point3D(size, 0, size * 1 / 2);
+            point3D p10 = new point3D(size, 0, -size * 1 / 2);
+            point3D p11 = new point3D(0, size * 1 / 2, -size);
+            point3D p12 = new point3D(0, -size * 1 / 2, -size);
+
+            facet f1 = new facet();
+            f1.add(p1); f1.add(p2); f1.add(p3);
+            facets.Add(f1);
+            facet f2 = new facet();
+            f2.add(p1); f2.add(p3); f2.add(p7);
+            facets.Add(f2);
+            facet f3 = new facet();
+            f3.add(p1); f3.add(p8); f3.add(p11);
+            facets.Add(f3);
+            facet f4 = new facet();
+            f4.add(p1); f4.add(p2); f4.add(p11);
+            facets.Add(f4);
+            facet f5 = new facet();
+            f5.add(p1); f5.add(p7); f5.add(p8);
+            facets.Add(f5);
+            facet f6 = new facet();
+            f6.add(p2); f6.add(p3); f6.add(p9);
+            facets.Add(f6);
+            facet f7 = new facet();
+            f7.add(p2); f7.add(p9); f7.add(p10);
+            facets.Add(f7);
+            facet f8 = new facet();
+            f8.add(p2); f8.add(p10); f8.add(p11);
+            facets.Add(f8);
+            facet f9 = new facet();
+            f9.add(p3); f9.add(p4); f9.add(p7);
+            facets.Add(f9);
+            facet f10 = new facet();
+            f10.add(p3); f10.add(p4); f10.add(p9);
+            facets.Add(f10);
+            facet f11 = new facet();
+            f11.add(p4); f11.add(p5); f11.add(p7);
+            facets.Add(f11);
+            facet f12 = new facet();
+            f12.add(p4); f12.add(p5); f12.add(p6);
+            facets.Add(f12);
+            facet f13 = new facet();
+            f13.add(p4); f13.add(p6); f13.add(p9);
+            facets.Add(f13);
+            facet f14 = new facet();
+            f14.add(p5); f14.add(p7); f14.add(p8);
+            facets.Add(f14);
+            facet f15 = new facet();
+            f15.add(p5); f15.add(p8); f15.add(p12);
+            facets.Add(f15);
+            facet f16 = new facet();
+            f16.add(p5); f16.add(p6); f16.add(p12);
+            facets.Add(f16);
+            facet f17 = new facet();
+            f17.add(p6); f17.add(p9); f17.add(p10);
+            facets.Add(f17);
+            facet f18 = new facet();
+            f18.add(p6); f18.add(p10); f18.add(p12);
+            facets.Add(f18);
+            facet f19 = new facet();
+            f19.add(p8); f19.add(p11); f19.add(p12);
+            facets.Add(f19);
+            facet f20 = new facet();
+            f20.add(p10); f20.add(p11); f20.add(p12);
+            facets.Add(f20);
+        }
+
         private void add_points_to_cube(int size)
         {
             point3D p1 = new point3D(-size, -size, -size);
@@ -171,6 +248,7 @@ namespace Lab6
             f8.add(p5); f8.add(p1); f8.add(p6);
             facets.Add(f8);
         }
+
 
         private void displacement(int kx, int ky, int kz)
         {
@@ -358,6 +436,8 @@ namespace Lab6
                 add_points_to_octahedron(100);
             else if (comboBox1.SelectedItem.ToString() == "Гексаэдр")
                 add_points_to_cube(100);
+            else if (comboBox1.SelectedItem.ToString() == "Икосаэдр")
+                add_points_to_ikosaedr(200);
 
             initialize_points();
             redraw_image();

@@ -1,0 +1,9 @@
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\bin\Debug\Lab7.exe.config
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\bin\Debug\Lab7.exe
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\bin\Debug\Lab7.pdb
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\obj\Debug\Lab7.csprojResolveAssemblyReference.cache
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\obj\Debug\Lab7.Form2.resources
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\obj\Debug\Lab7.csproj.GenerateResource.Cache
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\obj\Debug\Lab7.exe
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\obj\Debug\Lab7.pdb
+C:\Users\Dell 3537\Documents\Флэшка\Учеба\Графика\Lab7\GraphicLab7\Lab7\Lab7\obj\Debug\Lab7.Form1.resources
